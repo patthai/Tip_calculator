@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AEBA57A1C334B3F008FA5C5 /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AEBA57A1C334B3F008FA5C5 /* Tip calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEBA57D1C334B3F008FA5C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AEBA57F1C334B3F008FA5C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0AEBA5821C334B3F008FA5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AEBA5841C334B3F008FA5C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AEBA5871C334B3F008FA5C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AEBA5891C334B3F008FA5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AEBA58E1C334B3F008FA5C5 /* TippyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AEBA58E1C334B3F008FA5C5 /* Tip calculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip calculator.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEBA5921C334B3F008FA5C5 /* TippyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippyTests.swift; sourceTree = "<group>"; };
 		0AEBA5941C334B3F008FA5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AEBA5991C334B3F008FA5C5 /* TippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AEBA5991C334B3F008FA5C5 /* Tip calculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip calculator.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEBA59D1C334B3F008FA5C5 /* TippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippyUITests.swift; sourceTree = "<group>"; };
 		0AEBA59F1C334B3F008FA5C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		0AEBA57B1C334B3F008FA5C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0AEBA57A1C334B3F008FA5C5 /* Tippy.app */,
-				0AEBA58E1C334B3F008FA5C5 /* TippyTests.xctest */,
-				0AEBA5991C334B3F008FA5C5 /* TippyUITests.xctest */,
+				0AEBA57A1C334B3F008FA5C5 /* Tip calculator.app */,
+				0AEBA58E1C334B3F008FA5C5 /* Tip calculator.xctest */,
+				0AEBA5991C334B3F008FA5C5 /* Tip calculator.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0AEBA5791C334B3F008FA5C5 /* Tippy */ = {
+		0AEBA5791C334B3F008FA5C5 /* Tip calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AEBA5A21C334B3F008FA5C5 /* Build configuration list for PBXNativeTarget "Tippy" */;
+			buildConfigurationList = 0AEBA5A21C334B3F008FA5C5 /* Build configuration list for PBXNativeTarget "Tip calculator" */;
 			buildPhases = (
 				0AEBA5761C334B3F008FA5C5 /* Sources */,
 				0AEBA5771C334B3F008FA5C5 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Tippy;
+			name = "Tip calculator";
 			productName = Tippy;
-			productReference = 0AEBA57A1C334B3F008FA5C5 /* Tippy.app */;
+			productReference = 0AEBA57A1C334B3F008FA5C5 /* Tip calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0AEBA58D1C334B3F008FA5C5 /* TippyTests */ = {
+		0AEBA58D1C334B3F008FA5C5 /* Tip calculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AEBA5A51C334B3F008FA5C5 /* Build configuration list for PBXNativeTarget "TippyTests" */;
+			buildConfigurationList = 0AEBA5A51C334B3F008FA5C5 /* Build configuration list for PBXNativeTarget "Tip calculatorTests" */;
 			buildPhases = (
 				0AEBA58A1C334B3F008FA5C5 /* Sources */,
 				0AEBA58B1C334B3F008FA5C5 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				0AEBA5901C334B3F008FA5C5 /* PBXTargetDependency */,
 			);
-			name = TippyTests;
+			name = "Tip calculatorTests";
 			productName = TippyTests;
-			productReference = 0AEBA58E1C334B3F008FA5C5 /* TippyTests.xctest */;
+			productReference = 0AEBA58E1C334B3F008FA5C5 /* Tip calculator.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0AEBA5981C334B3F008FA5C5 /* TippyUITests */ = {
+		0AEBA5981C334B3F008FA5C5 /* Tip calculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0AEBA5A81C334B3F008FA5C5 /* Build configuration list for PBXNativeTarget "TippyUITests" */;
+			buildConfigurationList = 0AEBA5A81C334B3F008FA5C5 /* Build configuration list for PBXNativeTarget "Tip calculatorUITests" */;
 			buildPhases = (
 				0AEBA5951C334B3F008FA5C5 /* Sources */,
 				0AEBA5961C334B3F008FA5C5 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				0AEBA59B1C334B3F008FA5C5 /* PBXTargetDependency */,
 			);
-			name = TippyUITests;
+			name = "Tip calculatorUITests";
 			productName = TippyUITests;
-			productReference = 0AEBA5991C334B3F008FA5C5 /* TippyUITests.xctest */;
+			productReference = 0AEBA5991C334B3F008FA5C5 /* Tip calculator.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0AEBA5751C334B3F008FA5C5 /* Build configuration list for PBXProject "Tippy" */;
+			buildConfigurationList = 0AEBA5751C334B3F008FA5C5 /* Build configuration list for PBXProject "Tip calculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0AEBA5791C334B3F008FA5C5 /* Tippy */,
-				0AEBA58D1C334B3F008FA5C5 /* TippyTests */,
-				0AEBA5981C334B3F008FA5C5 /* TippyUITests */,
+				0AEBA5791C334B3F008FA5C5 /* Tip calculator */,
+				0AEBA58D1C334B3F008FA5C5 /* Tip calculatorTests */,
+				0AEBA5981C334B3F008FA5C5 /* Tip calculatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		0AEBA5901C334B3F008FA5C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0AEBA5791C334B3F008FA5C5 /* Tippy */;
+			target = 0AEBA5791C334B3F008FA5C5 /* Tip calculator */;
 			targetProxy = 0AEBA58F1C334B3F008FA5C5 /* PBXContainerItemProxy */;
 		};
 		0AEBA59B1C334B3F008FA5C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0AEBA5791C334B3F008FA5C5 /* Tippy */;
+			target = 0AEBA5791C334B3F008FA5C5 /* Tip calculator */;
 			targetProxy = 0AEBA59A1C334B3F008FA5C5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -401,9 +401,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Patthai.Tippy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Patthai.Tip-calculator";
+				PRODUCT_NAME = "Tip calculator";
 			};
 			name = Debug;
 		};
@@ -412,9 +413,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Tippy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Patthai.Tippy;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "Patthai.Tip-calculator";
+				PRODUCT_NAME = "Tip calculator";
 			};
 			name = Release;
 		};
@@ -425,8 +427,8 @@
 				INFOPLIST_FILE = TippyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Patthai.TippyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tippy.app/Tippy";
+				PRODUCT_NAME = "Tip calculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip calculator.app/Tip calculator";
 			};
 			name = Debug;
 		};
@@ -437,8 +439,8 @@
 				INFOPLIST_FILE = TippyTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Patthai.TippyTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tippy.app/Tippy";
+				PRODUCT_NAME = "Tip calculator";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tip calculator.app/Tip calculator";
 			};
 			name = Release;
 		};
@@ -448,7 +450,7 @@
 				INFOPLIST_FILE = TippyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Patthai.TippyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tip calculator";
 				TEST_TARGET_NAME = Tippy;
 				USES_XCTRUNNER = YES;
 			};
@@ -460,7 +462,7 @@
 				INFOPLIST_FILE = TippyUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Patthai.TippyUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tip calculator";
 				TEST_TARGET_NAME = Tippy;
 				USES_XCTRUNNER = YES;
 			};
@@ -469,7 +471,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0AEBA5751C334B3F008FA5C5 /* Build configuration list for PBXProject "Tippy" */ = {
+		0AEBA5751C334B3F008FA5C5 /* Build configuration list for PBXProject "Tip calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AEBA5A01C334B3F008FA5C5 /* Debug */,
@@ -478,29 +480,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0AEBA5A21C334B3F008FA5C5 /* Build configuration list for PBXNativeTarget "Tippy" */ = {
+		0AEBA5A21C334B3F008FA5C5 /* Build configuration list for PBXNativeTarget "Tip calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AEBA5A31C334B3F008FA5C5 /* Debug */,
 				0AEBA5A41C334B3F008FA5C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0AEBA5A51C334B3F008FA5C5 /* Build configuration list for PBXNativeTarget "TippyTests" */ = {
+		0AEBA5A51C334B3F008FA5C5 /* Build configuration list for PBXNativeTarget "Tip calculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AEBA5A61C334B3F008FA5C5 /* Debug */,
 				0AEBA5A71C334B3F008FA5C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0AEBA5A81C334B3F008FA5C5 /* Build configuration list for PBXNativeTarget "TippyUITests" */ = {
+		0AEBA5A81C334B3F008FA5C5 /* Build configuration list for PBXNativeTarget "Tip calculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0AEBA5A91C334B3F008FA5C5 /* Debug */,
 				0AEBA5AA1C334B3F008FA5C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

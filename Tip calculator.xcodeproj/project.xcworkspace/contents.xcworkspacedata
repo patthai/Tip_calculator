@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Tippy.xcodeproj">
+      location = "self:/Users/patpataranutaporn/Desktop/Tip_calculator_final/Tip calculator.xcodeproj">
    </FileRef>
 </Workspace>

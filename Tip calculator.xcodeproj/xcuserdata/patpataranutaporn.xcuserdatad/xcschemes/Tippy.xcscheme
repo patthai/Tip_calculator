@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0AEBA5791C334B3F008FA5C5"
-               BuildableName = "Tippy.app"
-               BlueprintName = "Tippy"
-               ReferencedContainer = "container:Tippy.xcodeproj">
+               BuildableName = "Tip calculator.app"
+               BlueprintName = "Tip calculator"
+               ReferencedContainer = "container:Tip calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0AEBA58D1C334B3F008FA5C5"
-               BuildableName = "TippyTests.xctest"
-               BlueprintName = "TippyTests"
-               ReferencedContainer = "container:Tippy.xcodeproj">
+               BuildableName = "Tip calculator.xctest"
+               BlueprintName = "Tip calculatorTests"
+               ReferencedContainer = "container:Tip calculator.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0AEBA5981C334B3F008FA5C5"
-               BuildableName = "TippyUITests.xctest"
-               BlueprintName = "TippyUITests"
-               ReferencedContainer = "container:Tippy.xcodeproj">
+               BuildableName = "Tip calculator.xctest"
+               BlueprintName = "Tip calculatorUITests"
+               ReferencedContainer = "container:Tip calculator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0AEBA5791C334B3F008FA5C5"
-            BuildableName = "Tippy.app"
-            BlueprintName = "Tippy"
-            ReferencedContainer = "container:Tippy.xcodeproj">
+            BuildableName = "Tip calculator.app"
+            BlueprintName = "Tip calculator"
+            ReferencedContainer = "container:Tip calculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0AEBA5791C334B3F008FA5C5"
-            BuildableName = "Tippy.app"
-            BlueprintName = "Tippy"
-            ReferencedContainer = "container:Tippy.xcodeproj">
+            BuildableName = "Tip calculator.app"
+            BlueprintName = "Tip calculator"
+            ReferencedContainer = "container:Tip calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0AEBA5791C334B3F008FA5C5"
-            BuildableName = "Tippy.app"
-            BlueprintName = "Tippy"
-            ReferencedContainer = "container:Tippy.xcodeproj">
+            BuildableName = "Tip calculator.app"
+            BlueprintName = "Tip calculator"
+            ReferencedContainer = "container:Tip calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

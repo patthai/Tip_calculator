@@ -31,9 +31,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 version 2
+
 <img src='https://github.com/patthai/Tip_calculator/blob/master/Tip_calculator_demo_2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 Version 1
+
 <img src='https://github.com/patthai/Tip_calculator/blob/master/Tip_calculator_demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).

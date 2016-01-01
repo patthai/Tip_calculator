@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AC7C9E51C35E3C800D080E3 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7C9E41C35E3C800D080E3 /* SettingViewController.swift */; };
 		0AEBA57E1C334B3F008FA5C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBA57D1C334B3F008FA5C5 /* AppDelegate.swift */; };
 		0AEBA5801C334B3F008FA5C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBA57F1C334B3F008FA5C5 /* ViewController.swift */; };
 		0AEBA5831C334B3F008FA5C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEBA5811C334B3F008FA5C5 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AC7C9E41C35E3C800D080E3 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		0AEBA57A1C334B3F008FA5C5 /* Tip calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AEBA57D1C334B3F008FA5C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AEBA57F1C334B3F008FA5C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		0AEBA57C1C334B3F008FA5C5 /* Tippy */ = {
 			isa = PBXGroup;
 			children = (
+				0AC7C9E41C35E3C800D080E3 /* SettingViewController.swift */,
 				0AEBA57D1C334B3F008FA5C5 /* AppDelegate.swift */,
 				0AEBA57F1C334B3F008FA5C5 /* ViewController.swift */,
 				0AEBA5811C334B3F008FA5C5 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				0AEBA5801C334B3F008FA5C5 /* ViewController.swift in Sources */,
 				0AEBA57E1C334B3F008FA5C5 /* AppDelegate.swift in Sources */,
+				0AC7C9E51C35E3C800D080E3 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

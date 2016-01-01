@@ -13,22 +13,27 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 * [ ] Settings page to change the default tip percentage.
-* [ ] UI animations
+* [x] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
-* [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [x] Using locale-specific currency and currency thousands separators.
+* [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
 - [x] add app logo.
 - [x] add loading screen.
+- [x] add about page.
+- [x] add the link to sourcecode.
 
 
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
+version 2
+<img src='https://github.com/patthai/Tip_calculator/blob/master/Tip_calculator_demo_2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+Version 1
 <img src='https://github.com/patthai/Tip_calculator/blob/master/Tip_calculator_demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).

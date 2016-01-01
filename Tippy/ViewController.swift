@@ -18,11 +18,17 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tipControl: UISegmentedControl!
 
+    @IBOutlet weak var CurrencyLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = "Tip Calculator"
         // Do any additional setup after loading the view, typically from a nib.
     tipLabel.text = "$0.00"
     totalLabel.text = "$0.00"
+    CurrencyLabel.text = "A"
     
     }
 
@@ -40,8 +46,8 @@ class ViewController: UIViewController {
         var tip = billAmount * tipPercentage
         var total = billAmount + tip
         
-        tipLabel.text = "$\(tip)"
-        totalLabel.text = "$\(total)"
+        tipLabel.text = "(currencyLabel)\(tip)"
+        totalLabel.text = "(currencyLabel)\(total)"
         
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)

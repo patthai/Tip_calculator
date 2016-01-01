@@ -10,6 +10,7 @@ import UIKit
 
 class SettingViewController: UIViewController {
 
+    @IBOutlet weak var currencyControl: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +22,12 @@ class SettingViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func sourcecode(sender: AnyObject) {
+        if let url = NSURL(string: "https://github.com/patthai/Tip_calculator") {
+            UIApplication.sharedApplication().openURL(url)
+        }
+    }
+  
 
     /*
     // MARK: - Navigation

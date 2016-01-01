@@ -17,10 +17,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var billField: UITextField!
     
     @IBOutlet weak var tipControl: UISegmentedControl!
+    
+    @IBOutlet weak var currencyControl: UISegmentedControl!
+    @IBOutlet weak var currencyLabel: UILabel!
 
-    @IBOutlet weak var CurrencyLabel: UILabel!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     tipLabel.text = "$0.00"
     totalLabel.text = "$0.00"
-    CurrencyLabel.text = "A"
+    currencyLabel.text = "$"
     
     }
 
@@ -39,6 +39,12 @@ class ViewController: UIViewController {
 
 
     @IBAction func billField(sender: AnyObject) {
+        var currency_data = ["$", "€", "¥"]
+        var currency = currency_data[currencyControl.selectedSegmentIndex]
+        
+
+        
+        
         var tipPercentages = [0.18, 0.20, 0.22]
         var tipPercentage = tipPercentages [tipControl.selectedSegmentIndex]
         
@@ -46,11 +52,14 @@ class ViewController: UIViewController {
         var tip = billAmount * tipPercentage
         var total = billAmount + tip
         
-        tipLabel.text = "(currencyLabel)\(tip)"
-        totalLabel.text = "(currencyLabel)\(total)"
         
-        tipLabel.text = String(format: "$%.2f", tip)
-        totalLabel.text = String(format: "$%.2f", total)
+        
+        tipLabel.text = "$\(tip)"
+        totalLabel.text = "$\(total)"
+        
+        currencyLabel.text = String(format: "%@", currency)
+        tipLabel.text = String(format: "%@%.2f", currency, tip)
+        totalLabel.text = String(format:"%@%.2f", currency, total)
         
     }
     @IBAction func onTap(sender: AnyObject) {
